@@ -1,0 +1,81 @@
+.left_st{
+    width: 62%;
+}
+.right_st{
+    width: 34%;
+    align-items: start;
+}
+.statiya p{
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 23px;
+}
+.f18_bold{
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 20px;
+}
+.f26_bold{
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 36px;
+    letter-spacing: 0.05em;
+    margin-bottom: 20px;
+}
+.page_description img{
+    margin-top: 19px;
+    margin-bottom: 43px;
+}
+.statiya{
+    align-items: start;
+}
+.flex_ss{
+    margin-left: -6px;
+}
+.zag{
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 26px;
+    color: #1D726D;
+    margin-bottom: 10px;
+}
+.icon svg{
+    position: absolute;
+    bottom: -3px;
+    left: -8px;
+}
+.icon{
+    background: #FFF8ED;
+    border-radius: 300px;
+    width: 66px;
+    height: 66px;
+    position: relative;
+    margin-top: 9px;
+}
+.text_podel{
+    width: 83%;
+}
+.texs{
+    font-size: 14px;
+    line-height: 22px;
+    margin-bottom: 13px;
+}
+.flex_ss a{
+    width: 40px;
+    height: 40px;
+    transform: scale(1.25);
+    display: inline-flex;
+    background: transparent;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+}
+.flex_ss a:hover{
+background: #FFF8ED;
+}
+@media (min-width: 1200px) and (max-width: 1599px) {
+    .page_description .f26_bold {
+        font-size: 22px;
+    }
+}

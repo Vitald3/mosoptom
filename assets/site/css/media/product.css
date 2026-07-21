@@ -1,0 +1,547 @@
+@media (max-width: 639px) {
+    #content h1 {
+        font-size: 24px;
+        line-height: 34px;
+        margin: 10px 0;
+    }
+    .top_product {
+        margin-bottom: 10px;
+        justify-content: space-between;
+    }
+    .prices_pro {
+        font-size: 30px;
+    }
+    .load_image {
+        margin-top: 0;
+    }
+    .articul, .reting_otzv, .nalic {
+        margin-right: 0;
+    }
+    .slider_images img {
+        height: auto!important;
+    }
+    .fancybox__caption {display: none!important;}
+    .new, .left_decript, .mob_h, .decript_atribut .right_decript, .dop_fotos, .mob_rev, .top_product .reting_otzv, .top_product .soc, .pric, .float_product .izbr, .float_cart span, .product_related .owl-nav button {display: none}
+    .left_product {
+        padding-right: 0;
+        width: 100%;
+    }
+    .soc_avtor {
+        margin: 0px 10px;
+    }
+    .avtor {
+        font-size: 16px;
+    }
+    .float_product {display: none!important;}
+    .soc {
+        margin-top: 4px;
+    }
+    .mode_left {
+        width: 100%;
+    }
+    .widm {
+        width: 62px;
+        height: 62px;
+        border-radius: 10px;
+    }
+    #one_click .product_name, #popup3 .product_name, #one_click_success .product_name {
+        font-size: 11px;
+        line-height: normal;
+    }
+    .top_revievs .btn-default {
+        width: 100%;
+    }
+    .one_price, .one_qw {
+        font-size: 16px;
+        line-height: 16px;
+    }
+    #one_click .mb30, #popup3 .mb30, #one_click_success .mb30 {
+        margin-bottom: 12px;
+    }
+    #one_click .mh150 {align-items: flex-start;margin-top: 10px}
+    #popup4 .textarea {
+        margin-bottom: 0;
+    }
+    .colon1, .colon2, .colon3 {
+        padding: 30px 22px;
+    }
+    .product_related .price_new {
+        font-size: 13px;
+    }
+    .product_related .price_discount {
+        font-size: 10px;
+    }
+    .btn-default {
+        padding: 14px 30px;
+    }
+    .b_zakaz {
+        width: 74%;
+    }
+    .float_cart {
+        background: transparent;
+        border: 0;
+        border-radius: 0;
+        padding: 16px;
+    }
+    #one_click .caption, #popup3 .caption, #one_click_success .caption {
+        width: 76%;
+    }
+    #popup3 .write_title {
+        padding-right: 36px;
+    }
+    .flimg {
+        width: 60px;
+        border-radius: 10px;
+        height: 60px;
+    }
+    .product {
+        width: 120px;
+    }
+    .info {
+        width: 100%;
+        padding-left: 0;
+    }
+    .product_related {
+        width: calc(100% + ((100vw - 100%) / 2) - 4px);
+        margin-top: 0;
+        margin-bottom: 10px;
+        min-height: 273px;
+    }
+    .last_right .product_name {
+        min-height: unset;
+    }
+    .product_related .border-24 {
+        width: 120px;
+        height: 120px;
+    }
+    #product, .right_decript {
+        width: 100%;
+    }
+    #product {
+        padding-top: 15px;
+    }
+    #popup1 .caption {
+        padding-left: 20px;
+        min-height: 70px;
+        width: 75%;
+    }
+    .btn-invert {
+        padding: 16px 34px;
+    }
+    .option_cart:empty {display: none}
+    #popup1 .price, #popup1 .price_discount {
+        margin-top: 0;
+    }
+    .policy {
+        line-height: normal;
+    }
+    #one_click .caption {
+        min-height: unset;
+    }
+    .review_add {
+        margin-top: 15px;
+    }
+    .hide_22 {
+        margin-top: 20px;
+    }
+    #one_click .mh150, #popup3 .mh150, #one_click_success .mh150 {
+        align-items: flex-start;
+    }
+    #popup1 .btn-default {
+        padding: 8px 20px;
+    }
+    #popup1 .mh150 {
+        margin: 10px 0px;
+        min-height: unset;
+    }
+    .activ_descript {
+        font-weight: 700;
+        display: block;
+        text-align: left;
+        margin-bottom: 10px;
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .top_revievs .selectize {
+        min-width: 168px;
+    }
+    .top_revievs .form_group {
+        position: absolute;
+        right: 0;
+        top: 22px;
+    }
+    .top_revievs {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .dop_info {
+        position: relative;
+        top: 0;
+        margin: auto;
+        margin-top: 30px;
+    }
+    .icon_info {
+        margin: auto;
+    }
+    .info_zag {
+        text-align: center;
+        margin-top: 14px;
+    }
+    .flex_info {
+        margin-bottom: 44px;
+        flex-direction: column;
+    }
+    #product_reviews {
+        padding-top: 30px;
+        position: relative;
+    }
+    .tabl_opt {
+        margin: 20px 0;
+        width: 100%;
+    }
+    .flex_product {
+        align-items: normal;
+        flex-direction: column;
+    }
+    .dop_foto2 {
+        margin-left: 4px;
+        margin-right: 4px;
+        width: 58px;
+        height: 58px;
+        margin-bottom: 0;
+    }
+    .right_decript table {table-layout: fixed;}
+    .right_decript table td {word-break: break-all;}
+    .colon1, .colon2, .colon3 {
+        width: 100%;;
+        margin: auto;
+        margin-bottom: 15px;
+    }
+    .osnov_foto {
+        margin-bottom: 20px;
+    }
+    .foto_product {
+        display: flex;
+        flex-direction: column-reverse;
+        margin-bottom: 10px;
+    }
+    .dop_foto {
+        margin-right: 0;
+        margin-bottom: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .osnov_foto, .main_foto {
+        width: 100%;
+        height: unset;
+    }
+}
+@media (min-width: 640px) and (max-width: 959px) {
+    #content h1 {
+        font-size: 28px;
+        line-height: 34px;
+        margin-bottom: 10px;
+    }
+    #popup3 .mb30 {
+        margin-bottom: 0;
+    }
+    .load_image {
+        margin-top: 0;
+    }
+    .top_product {
+        margin-bottom: 30px;
+        justify-content: space-between;
+    }
+    .articul, .reting_otzv, .nalic {
+        margin-right: 0;
+    }
+    .new, .left_decript, .hid-ms, .decript_atribut .right_decript, .quantity_inner, .pric, .float_product .izbr, .float_cart span, .product_related .owl-nav button {display: none}
+    .left_product {
+        padding-right: 0;
+        width: 100%;
+    }
+    .float_cart {
+        background: transparent;
+        border: 0;
+        border-radius: 0;
+        padding: 16px;
+    }
+    #one_click .caption, #popup3 .caption, #one_click_success .caption {
+        width: 76%;
+    }
+    #popup3 .write_title {
+        padding-right: 36px;
+    }
+    .flimg {
+        width: 60px;
+        border-radius: 10px;
+        height: 60px;
+    }
+    .product {
+        width: 216px;
+    }
+    .product_related {
+        width: calc(100% + ((100vw - 100%) / 2) - 4px);
+    }
+    .product_related .border-24 {
+        width: 216px;
+        height: 216px;
+    }
+    #product, .right_decript {
+        width: 100%;
+    }
+    .activ_descript {
+        font-weight: 700;
+        display: block;
+        text-align: left;
+        margin-bottom: 10px;
+    }
+    .top_revievs {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .dop_info {
+        position: relative;
+        top: 0;
+        width: 75%;
+        margin: auto;
+        margin-top: 30px;
+    }
+    #product_reviews {
+        padding-top: 30px;
+    }
+    .tabl_opt {
+        margin: 30px auto 30px;
+    }
+    .flex_product {
+        align-items: normal;
+        flex-direction: column;
+    }
+    .dop_foto2 {
+        margin-left: 4px;
+        margin-right: 4px;
+        width: 58px;
+        height: 58px;
+        margin-bottom: 0;
+    }
+    .colon1, .colon2, .colon3 {
+        width: 452px;
+        margin: auto;
+        margin-bottom: 15px;
+    }
+    .osnov_foto {
+        margin-bottom: 20px;
+    }
+    .foto_product {
+        display: flex;
+        flex-direction: column-reverse;
+        margin-bottom: 40px;
+    }
+    .dop_foto {
+        margin-right: 0;
+        margin-bottom: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .osnov_foto, .main_foto {
+        width: 100%;
+        height: unset;
+    }
+}
+@media (min-width: 960px) and (max-width: 1199px) {
+    #content h1 {
+        font-size: 28px;
+        line-height: 34px;
+    }
+    .top_product {
+        margin-bottom: 30px;
+    }
+    .foto_product {
+        margin-bottom: 30px;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .osnov_foto {
+        margin-bottom: 30px;
+    }
+    #product {
+        width: 38%;
+    }
+    .prices_pro {
+        font-size: 26px;
+        margin-bottom: 22px;
+    }
+    .colon1, .colon2, .colon3 {
+        padding: 30px;
+    }
+    .b_zakaz {
+        width: 76%;
+    }
+    .btn-default {
+        padding: 16px 30px;
+    }
+    .osnov_foto, .main_foto {
+        width: 100%;
+        height: unset;
+    }
+    .dop_foto2 {
+        width: 56px;
+        height: 56px;
+        margin-right: 10px;
+        margin-bottom: 0;
+    }
+    .load_image {
+        margin-top: 0;
+    }
+    .dop_foto {
+        margin-right: 0;
+        margin-bottom: 0;
+        display: flex;
+        align-items: center;
+    }
+    .left_product {
+        padding-right: 30px;
+        width: 62%;
+    }
+    .right_decript {
+        width: 100%;
+    }
+    .product_related {
+        margin-top: 50px;
+        margin-bottom: 50px;
+        width: calc(100% + ((100vw - 100%) / 2) - 4px);
+        min-height: 421px;
+    }
+    .product_related .owl-nav button {display: none}
+    .product_related .product {
+        width: 241px;
+    }
+    .product_related .border-24 {
+        width: 241px;
+        height: 241px;
+    }
+    .activ_descript {
+        font-weight: 700;
+        margin-bottom: 20px;
+        display: block;
+        text-align: left;
+    }
+    #product_reviews {
+        padding-top: 20px;
+    }
+    .soc_avtor {
+        margin: 0px 10px;
+    }
+    .flimg {
+        width: 60px;
+    }
+    .float_product .col-6 {
+        width: 36%;
+    }
+    .float_cart .btn-default {
+        padding: 14px 18px;
+        font-size: 12px;
+    }
+    .pric {
+        font-size: 18px;
+        margin: 0px 20px;
+    }
+    .top_revievs {
+        margin-top: 0;
+        margin-bottom: 20px;
+    }
+    .dis_on {display: block;margin-bottom: 12px;}
+    .tabl_dis, .left_decript {display: none}
+}
+@media (min-width: 1200px) and (max-width: 1599px) {
+    .main_foto {
+        width: 709px;
+        height: 601px;
+    }
+    #popup1 .caption {
+        min-height: 85px;
+        width: 74%;
+    }
+    .dop_foto {
+        margin-right: 33px;
+    }
+    .product_related .border-24 {
+        width: 210px;
+        height: 210px;
+    }
+    .float_product .col-6 {
+        width: 40%;
+    }
+    #one_click_success .modal-content, #one_click .modal-content, #popup3 .modal-content {
+        width: 100%;
+        padding: 25px;
+    }
+    #one_click .caption, #popup3 .caption, #one_click_success .caption {
+        padding-left: 15px;
+        width: 57%;
+    }
+    #one_click .product_name, #popup3 .product_name, #one_click_success .product_name {
+        font-size: 12px;
+        margin-bottom: 0;
+    }
+    .one_price {
+        font-size: 16px;
+    }
+    .one_qw {
+        font-size: 15px;
+    }
+    #popup3 a {
+        font-size: 12px;
+    }
+    .minim p {
+        font-size: 12px;
+    }
+    #one_click .mh150, #popup3 .mh150, #one_click_success .mh150 {
+        margin: 12px 0;
+    }
+    #one_click .hide_22, #popup3 .hide_22, #one_click_success .hide_22 {display: none}
+    #popup3 .write_title {
+        font-size: 20px;
+    }
+    .dop_foto2 {
+        width: 88px;
+        height: 88px;
+    }
+    .osnov_foto {
+        width: 85%;
+        height: auto;
+    }
+    .activ_descript {
+        font-size: 25px;
+        line-height: 30px;
+    }
+    .left_product {
+        padding-right: 30px;
+    }
+    .prices_pro {
+        font-size: 30px;
+        margin-bottom: 22px;
+    }
+    .colon1 {
+        padding: 40px;
+    }
+    .colon2, .colon3 {
+        padding: 30px 40px;
+    }
+    .btn-default {
+        padding: 16px 30px;
+    }
+    .b_zakaz {
+        width: 74%;
+    }
+    .dis_on {display: block;margin-bottom: 12px;}
+    .tabl_dis {display: none}
+    .soc_avtor {
+        margin: 0px 8px;
+    }
+    .flimg {
+        width: 60px;
+    }
+}

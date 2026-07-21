@@ -1,0 +1,134 @@
+.users-list-wrapper .dataTables_length {
+    margin-top: 0 !important;
+}
+
+.users-list-wrapper .dataTables_length select {
+    margin: 0 .5rem 0 .5rem;
+}
+
+.users-list-wrapper .dataTables_filter {
+    margin-top: 0 !important;
+}
+label.required {position: relative}
+label.required:after {
+    position: absolute;
+    right: -9px;
+    top: 2px;
+    content: '*';
+    color: red;
+}
+.users-view .table-borderless td {
+    padding: .3rem 0 .3rem 0;
+    word-break: break-word;
+    white-space: normal;
+}
+.preview {
+    display: flex;
+    align-items: inherit;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin: 10px -5px;
+}
+.preview a {
+    margin-bottom: 10px;
+    border: 1px solid #8494ae;
+    margin-right: 5px;
+    margin-left: 5px;
+    padding: 5px;
+}
+.preview img {
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+}
+.flex-custom {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+.events {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    height: 50px;
+    width: 130px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fff;
+    box-shadow: 0 0 8px 0 #0000008c;
+    padding: 0 10px;
+    border-radius: 4px;
+}
+.users-view .table-borderless td:first-child {
+    width: 140px;
+}
+.event_file {
+    position: relative;
+}
+.users-view .users-avatar-shadow, .users-edit .users-avatar-shadow {
+    box-shadow: 2px 4px 14px 0 rgba(0, 0, 0, 0.4);
+}
+.table a.asc:before {
+    content: "\ea24";
+    font-family: 'boxicons'!important;
+}
+.table a.desc:before {
+    content: "\ea17";
+    font-family: 'boxicons'!important;
+}
+.well {
+    max-height: 300px;
+    overflow: auto;
+    background: #eee;
+    padding: 10px;
+}
+.well .checkbox label:after {
+    background: #fff;
+}
+.breadcrumb {
+    margin: 0;
+    padding-left: 7px;
+    background: transparent;
+}
+.breadcrumbs span:before {
+    content: '•';
+    margin: 0 6px
+}
+.breadcrumbs li:first-child span:before {
+    display: none;
+}
+.minus {
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+    display: inline-block;
+    background: #ccc;
+    border-radius: 50%;
+    vertical-align: middle;
+    line-height: 12px;
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+}
+@media (max-width: 768px) {
+    .breadcrumbs {
+        display: none;
+    }
+    .table-responsive .align-items-center {
+        flex-wrap: wrap !important;
+    }
+    .table-responsive .align-items-center > * {
+        width: 100% !important;
+        margin: 6px 0 !important;
+    }
+}

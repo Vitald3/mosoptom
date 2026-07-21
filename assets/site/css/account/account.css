@@ -1,0 +1,125 @@
+.account_container {
+    width: 80%;
+    margin: auto;
+}
+.account_menu a span:last-child {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 40px;
+    padding-left: 20px;
+}
+.account_menu a:hover span:first-child, .account_menu a.active span:first-child {
+    display: flex;
+    width: 40px;
+    height: 40px;
+    margin-left: -10px;
+    margin-right: -10px;
+    align-items: center;
+    justify-content: center;
+    background: #54b0ac;
+    border-radius: 50%;
+}
+.account_menu a {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+.account_menu a:hover, .account_menu a.active {
+    color: #54B0AC;
+}
+.account_menu a:hover path, .account_menu a.active path {
+    fill: #fff;
+}
+.account_left {
+    width: 24%;
+    padding: 0 25px;
+}
+.account_right {
+    width: 76%;
+    padding-left: 25px;
+}
+.account_right h1 {
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 39px;
+    letter-spacing: 0.05em;
+    color: #1D726D;
+    margin-top: 0;
+}
+.account_right p {
+    font-size: 16px;
+    line-height: 26px;
+}
+.account_right p a {
+    color: #1D726D
+}
+.col-input-6 .form_group {
+    width: 48%;
+}
+.total {
+    font-size: 22px!important;
+    white-space: nowrap;
+}
+.wishlist .account_right {
+    width: 65%;
+}
+.col-3 {
+    width: 32%;
+    padding: 0 15px;
+}
+.products {
+    margin: 0 -15px;
+}
+.products .product > a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.wish_remove {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.rtext {
+    font-size: 12px;
+    line-height: 22px;
+    color: #ACBDC0;
+}
+.td_name {
+    width: 274px;
+}
+.r_status svg {
+    vertical-align: text-bottom;
+    margin-right: 10px;
+}
+.rating svg {
+    margin-right: 6px;
+}
+textarea.textarea {
+    border: 1px solid #E3EEF1;
+    box-sizing: border-box;
+    border-radius: 25px;
+    width: 100%;
+    margin-bottom: 30px;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    padding: 15px 30px;
+}
+.h5 {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 22px;
+    margin-bottom: 10px;
+}
+.mode > div:first-child > * {width: 100%}
+.mode_left {
+    width: 72%;
+}
+.ret1 path {
+    fill: #54B0AC;
+}
+.star.error path {
+    stroke: red;
+}

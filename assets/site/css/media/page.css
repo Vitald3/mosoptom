@@ -1,0 +1,33 @@
+@media (max-width: 639px) {
+    .bloc_container {
+        width: 100%;
+    }
+    .container.scroll {
+        padding-bottom: 15px;
+    }
+    .h2_zag {
+        font-size: 28px;
+        line-height: 34px;
+    }
+}
+@media (min-width: 640px) and (max-width: 959px) {
+    .container.scroll {
+        padding-bottom: 15px;
+    }
+    .bloc_container {
+        width: 100%;
+    }
+}
+@media (min-width: 960px) and (max-width: 1199px) {
+    .bloc_container {
+        width: 100%;
+    }
+}
+@media (min-width: 1200px) and (max-width: 1599px) {
+    .bloc_container {
+        width: 100%;
+    }
+    .page_description .f26_bold {
+        font-size: 22px;
+    }
+}

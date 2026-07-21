@@ -1,0 +1,164 @@
+.sale_flex{
+    border: 1px solid #eef5f7;
+    box-sizing: border-box;
+    border-radius: 25px;
+    height: 100%;
+    padding: 40px;
+}
+.sale_flex .h5 {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.05em;
+    color: #1D726D;
+    margin-bottom: 10px;
+}
+.timer {
+    margin-right: 92px;
+}
+.sale_left {
+    width: 62%;
+}
+.sale_left a {
+    padding-top: 20px;
+    display: block;
+}
+.sale_right {
+    width: 38%;
+    padding-left: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.sale_price > div:first-child {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    color: #484848;
+    opacity: 0.5;
+    text-decoration: line-through;
+}
+.sale_price > div:last-child {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 22px;
+}
+.sale_label > div:last-child {
+    font-size: 9px;
+    line-height: normal;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.sale_label > div:first-child {
+    font-size: 17px;
+    line-height: 16px;
+    font-weight: 600;
+}
+.sale_label {
+    background: #FFF8ED;
+    width: 70px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 1;
+    right: 0;
+    top: 0;
+}
+.timer__items {
+    left: 30px;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 19px;
+    color: #54B0AC;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 3px;
+}
+.timer__items > span:after {
+    content: ':';
+}
+.timer__items > span:last-child:after {
+    display: none;
+}
+.sale_name {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    margin-top: 31px;
+}
+.sale_left img{
+    width: 220px;
+    height: 220px;
+}
+
+@media (min-width: 1200px) and (max-width: 1599px) {
+.sale_left, .sale_right {
+    width: 100%;
+}
+    .cart_items .sale_left {width: 62%}
+    .cart_items .sale_right {width: 38%}
+    .cart_items .saleday > div {
+        flex-wrap: wrap;
+        padding: 30px;
+    }
+    .cart_items .sale_flex > .flex-2 {margin-top: 35px;}
+    .cart_items .sale_right {
+        flex-direction: row;
+        margin-top: 12px;
+    }
+.timer__items {
+    font-size: 14px;
+    line-height: 17px;
+}
+.timer svg{
+    width: 19px;
+    height: 19px;
+}
+.sale_left a img{
+    width: 160px;
+    height: 160px;
+    margin: auto;
+    display: block;
+}
+.saleday > div {
+    flex-wrap: wrap;
+    padding: 30px 30px 0 30px;
+}
+.sale_flex .flex, .sale_flex .flex-2{
+    flex-wrap: wrap;
+}
+.sale_label {
+    right: 23px;
+    top: -30px;
+}
+.sale_left a {
+    padding-top: 10px;
+}
+.sale_right{
+    display: flex;
+    padding: 0;
+}
+.sale_name {
+    width: 63%;
+    margin-top: 4px;
+}
+.sale_right {
+    flex-direction: row;
+}
+.elements .element_name {
+    font-size: 16px;
+    line-height: 22px;
+    margin-bottom: 8px;
+}
+.elements .element_text {
+    font-size: 12px;
+    line-height: 18px;
+}
+
+
+}

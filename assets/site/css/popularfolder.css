@@ -1,0 +1,195 @@
+.elements .element_name {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 0.05em;
+    margin-bottom: 10px;
+    word-break: break-word;
+    position: relative;
+    z-index: 1;
+}
+.elements {
+    width: calc(100% + ((100vw - 100%) / 2) - 4px) !important;
+}
+.elements .element_text {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    position: relative;
+    z-index: 1;
+}
+.elements2 .element_name {
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 21px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    word-break: break-word;
+    position: relative;
+    z-index: 1;
+}
+.popular_folder.popular_folder1 .item{
+    padding-bottom: 30px;
+}
+.elements2 .element_text {
+    font-weight: 900;
+    font-size: 28px;
+    line-height: 36px;
+    text-transform: uppercase;
+    position: relative;
+    z-index: 1;
+}
+.elements .element {
+    min-height: 350px;
+    width: 288px;
+    background: #FFF8ED;
+    border-radius: 25px;
+    padding: 40px;
+    display: block;
+}
+.elements2 {
+    margin-top: 10px;
+}
+.elements2 .element {
+    background: #E5BEB6;
+    border-radius: 25px;
+    padding: 44px 44px 44px 130px;
+    display: block;
+    min-height: 150px;
+    overflow: hidden;
+}
+.element img {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: auto !important;
+    max-width: 100%;
+}
+.popular_folder {
+    margin-top: 40px;
+    width: 100%;
+}
+.elements2 .owl-stage .owl-item:nth-child(even) .element {
+    background: #FFF3B6;
+}
+.elements2 .element img {
+    height: 100%;
+}
+.elements2 {
+    margin-bottom: 63px;
+}
+@media (max-width: 639px) {
+    .elements .element {
+        min-height: 158px;
+        width: 130px;
+        border-radius: 15px;
+    }
+    .elements2 .element_name {
+        font-size: 10px;
+        line-height: 12px;
+    }
+    .elements2 .element img {
+        object-fit: contain;
+    }
+    .elements2 {
+        width: calc(100% + ((100vw - 100%) / 2) - 4px) !important;
+    }
+    .popular_folder {
+        margin-top: 20px;
+    }
+    body:not(.catalog_product) .elements2 {
+        margin-bottom: 20px!important;
+    }
+    body:not(.catalog_product) .popular_folder {
+        min-height: 380px!important;
+    }
+    .elements2 .element_text {
+        font-size: 16px;
+        line-height: 19px;
+        width: 69%;
+    }
+    .elements2 .element {
+        border-radius: 15px;
+        padding: 15px 21px;
+        width: 254px;
+        min-height: unset;
+        max-height: 90px;
+    }
+}
+@media(max-width: 959px) {
+    .elements .element {
+        border-radius: 15px;
+        padding: 15px 20px;
+        min-height: 184px;
+        width: 152px;
+    }
+    .elements .element_text {
+        display: none;
+    }
+    .elements2 {
+        margin-bottom: 40px;
+    }
+    .elements .element img {
+        max-width: 88%;
+        max-height: 66%;
+    }
+    .elements .element_name {
+        font-size: 14px;
+        line-height: 16px;
+    }
+}
+@media (min-width: 1200px) and (max-width: 1599px){
+    .elements .element {
+        padding: 25px;
+    }
+    .elements .element_name {
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .elements2 {
+        margin-top: 20px;
+    }
+    .element img {
+        max-width: 65%;
+    }
+    .elements .element {
+        min-height: 263px;
+        padding: 25px;
+    }
+    .elements2 img{
+        max-width: 130%;
+        left: 0;
+    }
+}
+@media (min-width: 960px) and (max-width: 1199px) {
+    .elements .element {
+        min-height: 184px;
+        padding: 15px 20px;
+    }
+    .elements .element_text {
+        display: none;
+    }
+    .elements .element_name {
+        font-size: 12px;
+        line-height: 16px;
+    }
+    .element img {
+        max-width: 80%;
+    }
+    .elements2 img{
+        max-width: 150%;
+        left: -45px;
+    }
+    .elements2 .element_name {
+        font-size: 16px;
+        line-height: 19px;
+        margin-bottom: 5px;
+    }
+    .elements2 .element_text {
+        font-size: 22px;
+        line-height: 27px;
+    }
+    .elements2 .element {
+        padding: 44px 44px 44px 47px;
+    }
+}

@@ -1,0 +1,264 @@
+{
+  "menu": [
+    {
+      "navheader": "Каталог"
+    },
+    {
+      "url": "#",
+      "name": "Каталог",
+      "i18n": "Каталог",
+      "icon": "list",
+      "submenu": [
+        {
+          "url": "admin/products",
+          "name": "Товары",
+          "i18n": "Товары",
+          "icon": "list"
+        },
+        {
+          "url": "admin/categories",
+          "name": "Категории",
+          "i18n": "Категории",
+          "icon": "list"
+        },
+        {
+          "url": "#",
+          "name": "Характеристики",
+          "i18n": "Характеристики",
+          "icon": "bx bx-right-arrow-alt",
+          "submenu": [
+            {
+              "url": "admin/attributes",
+              "name": "Характеристики",
+              "i18n": "Характеристики",
+              "icon": "bx bxs-map"
+            },
+            {
+              "url": "admin/attribute_groups",
+              "name": "Группы",
+              "i18n": "Группы",
+              "icon": "bx bxs-map"
+            }
+          ]
+        },
+        {
+          "url": "admin/options",
+          "name": "Опции",
+          "i18n": "Опции",
+          "icon": "list"
+        },
+        {
+          "url": "admin/filters",
+          "name": "Фильтры",
+          "i18n": "Фильтры",
+          "icon": "list"
+        },
+        {
+          "url": "admin/reviews",
+          "name": "Отзывы",
+          "i18n": "Отзывы",
+          "icon": "list"
+        },
+        {
+          "url": "admin/manufacturers",
+          "name": "Производители",
+          "i18n": "Производители",
+          "icon": "list"
+        }
+      ]
+    },
+    {
+      "navheader": "Настройки"
+    },
+    {
+      "url": "#",
+      "name": "Настройки",
+      "i18n": "Настройки",
+      "icon": "list",
+      "submenu": [
+        {
+          "url": "admin/settings",
+          "name": "Настройки",
+          "i18n": "Настройки",
+          "icon": "list"
+        },
+        {
+          "url": "admin/currencies",
+          "name": "Валюта",
+          "i18n": "Валюта",
+          "icon": "list"
+        },
+        {
+          "url": "admin/regions",
+          "name": "Регионы",
+          "i18n": "Регионы",
+          "icon": "list"
+        },
+        {
+          "url": "admin/statuses",
+          "name": "Статусы",
+          "i18n": "Статусы",
+          "icon": "list"
+        },
+        {
+          "url": "admin/languages",
+          "name": "Языки",
+          "i18n": "Языки",
+          "icon": "bx bxs-map"
+        },
+        {
+          "url": "#",
+          "name": "Пользователи",
+          "i18n": "Пользователи",
+          "icon": "bx bx-right-arrow-alt",
+          "submenu": [
+            {
+              "url": "admin/users",
+              "name": "Пользователи",
+              "i18n": "Пользователи",
+              "icon": "bx bxs-map"
+            },
+            {
+              "url": "admin/roles",
+              "name": "Роли",
+              "i18n": "Роли",
+              "icon": "bx bxs-map"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "navheader": "Информация"
+    },
+    {
+      "url": "#",
+      "name": "Информация",
+      "i18n": "Информация",
+      "icon": "list",
+      "submenu": [
+        {
+          "url": "#",
+          "name": "Статьи",
+          "i18n": "Статьи",
+          "icon": "bx bx-right-arrow-alt",
+          "submenu": [
+            {
+              "url": "admin/pages",
+              "name": "Статьи",
+              "i18n": "Статьи",
+              "icon": "bx bxs-map"
+            },
+            {
+              "url": "admin/page_categories",
+              "name": "Категории",
+              "i18n": "Категории",
+              "icon": "bx bxs-map"
+            }
+          ]
+        },
+        {
+          "url": "admin/contacts",
+          "name": "Контакты",
+          "i18n": "Контакты",
+          "icon": "bx bxs-map"
+        }
+      ]
+    },
+    {
+      "navheader": "Макеты"
+    },
+    {
+      "url": "#",
+      "name": "Макеты",
+      "i18n": "Макеты",
+      "icon": "list",
+      "submenu": [
+        {
+          "url": "admin/layouts",
+          "name": "Схемы",
+          "i18n": "Схемы",
+          "icon": "bx bxs-map"
+        },
+        {
+          "url": "admin/extensions",
+          "name": "Модули",
+          "i18n": "Модули",
+          "icon": "bx bxs-map"
+        },
+        {
+          "url": "admin/elements",
+          "name": "Элементы",
+          "i18n": "Элементы",
+          "icon": "bx bxs-map"
+        }
+      ]
+    },
+    {
+      "url": "#",
+      "name": "Маркетинг",
+      "i18n": "Маркетинг",
+      "icon": "list",
+      "submenu": [
+        {
+          "url": "admin/coupons",
+          "name": "Купоны",
+          "i18n": "Купоны",
+          "icon": "bx bxs-map"
+        },
+        {
+          "url": "admin/emails",
+          "name": "Почта",
+          "i18n": "Почта",
+          "icon": "bx bxs-map"
+        }
+      ]
+    },
+    {
+      "url": "admin/export_import",
+      "name": "Экспорт/Импорт",
+      "i18n": "Экспорт/Импорт",
+      "icon": "list"
+    },
+    {
+      "url": "#",
+      "name": "Продажи",
+      "i18n": "Продажи",
+      "icon": "list",
+      "submenu": [
+        {
+          "url": "admin/orders",
+          "name": "Заказы",
+          "i18n": "Заказы",
+          "icon": "bx bxs-map"
+        },
+        {
+          "url": "admin/returns",
+          "name": "Возвраты",
+          "i18n": "Возвраты",
+          "icon": "bx bxs-map"
+        }
+      ]
+    },
+    {
+      "url": "#",
+      "name": "Клиенты",
+      "i18n": "Клиенты",
+      "icon": "list",
+      "submenu": [
+        {
+          "url": "admin/customer_groups",
+          "name": "Группы клиентов",
+          "i18n": "Группы клиентов",
+          "icon": "bx bxs-map"
+        },
+        {
+          "url": "admin/customers",
+          "name": "Клиенты",
+          "i18n": "Клиенты",
+          "icon": "bx bxs-map"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+.add_address {
+    margin-top: -51px;
+}
+#addresses > div + div {margin-top: 20px}
+#fisical p {
+    font-size: 14px;
+    line-height: 17px;
+}
+.soc_merge label {
+    border: 1px solid #E3EEF1;
+    box-sizing: border-box;
+    border-radius: 150px;
+    padding: 11px 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    margin-right: 20px;
+    cursor: pointer;
+    transition: .6s;
+}
+.soc_merge label svg {
+    margin-right: 10px;
+}
+.soc_merge label:hover, .soc_merge label.active {
+    color: #fff
+}
+.soc_merge label:hover path, .soc_merge label.active path, .soc_merge label:hover rect, .soc_merge label.active rect {
+    color: #fff;
+    fill: #fff;
+}
+.mb20 {margin-bottom: 20px}
+.vk:hover, .vk.active {
+    background: #1E88E5;
+}
+.yandex:hover, .yandex.active {
+    background: #EB5757;
+}
+.google:hover, .google.active {
+    background: #F44336;
+}
+.facebook:hover, .facebook.active {
+    background: #1976D2;
+}
+.add_phones, .add_emails {
+    width: 302px;
+    text-align: center;
+}
+.hid_radio {
+    display: none;
+}
+.col-input-6 + .alert {
+    margin-top: 20px;
+}

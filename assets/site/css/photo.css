@@ -1,0 +1,63 @@
+.photo .title {
+    margin-bottom: 40px;
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 58px;
+    color: #2B2A28;
+}
+.photo:after {
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 99;
+    background: #ffffff9e;
+    width: 12%;
+}
+.photo .bor {border-radius: 0px 40px}
+.photo {position: relative;overflow: hidden;margin-top: 145px}
+.photo .container {
+    padding-right: 0;
+    width: calc(100% - ((100% - 1170px)/2));
+    margin-right: 0;
+    margin-left: auto;
+}
+@media (max-width: 767px) {
+    .photo {
+        margin-top: 60px;
+    }
+    .photo .title {
+        font-weight: 800;
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .photo .bor img {
+        width: 240px;
+    }
+    .photo:after {
+        top: 15%;
+        width: 26%;
+    }
+    .photo .owl-nav {display: none}
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    .photo {
+        margin-top: 60px;
+    }
+    .photo .bor img {
+        width: 220px;
+    }
+    .photo:after {
+        top: 15%;
+        width: 35%;
+    }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+    .photo {
+        margin-top: 60px;
+    }
+    .photo:after {
+        width: 20%;
+    }
+}
